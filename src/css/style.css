@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+
+body::before {
+    width: 100%;
+    height: 90%;    
+    bottom: 20%;
+
+    content: '';
+    display: block;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/pattern-background-desktop.svg);
+}
+
+main{
+    display: flex; 
+    min-height: 100vh;
+    flex-direction: column; 
+}
+
+.conteudo-principal {
+    width: 285px;
+    height: 500px;
+    padding: 49px;
+    border-radius: 20px;
+    
+    margin: auto;
+    display: inline;
+    position: relative;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: white;
+}
+
+.conteudo-principal::before {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 1px 1px;
+
+    content: '';
+    display: block;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/illustration-hero.svg');
+}
+
+.cabecalho {
+    z-index: 1;
+    display: flex;
+}
+
+.titulo {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'redhattextbold', sans-serif;
+
+    bottom: -180px;
+    margin: auto;
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+    color: hsl(223, 47%, 23%);
+}
+
+.paragrafo {
+    font-size: 14px;    
+    font-weight: bold;
+    font-family: 'redhatdisplay-variable', sans-serif;
+
+    bottom: -185px;
+    display: inline-block;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 40px;
+    color: rgb(139, 144, 164);
+}
+
+.informacoes-do-produto {
+    display: block;
+    text-align: center;
+}
+
+.tipo-de-plano {
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'redhattextbold', sans-serif;
+
+    left: -30px;
+    bottom: -190px;
+    position: relative;
+    color: hsl(223, 47%, 23%);
+}
+
+.valor-do-plano {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'redhatmedium', sans-serif;
+
+    left: -32px;
+    bottom: -130px;
+    position: relative;
+    color: rgb(139, 144, 164);
+}
+
+.icone-music {
+    width: 40px;
+    left: -100px;
+    bottom: -170px;
+    position: relative;
+}
+
+.link-change {
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: 'redhattextbold', sans-serif;
+
+    left: 100px;
+    cursor: grab;
+    bottom: -135px;
+    position: relative;
+    color: rgb(55, 45, 170);
+}
+
+.link-change:hover {
+    transition: 0.3s;
+    color: rgb(152, 144, 247);
+}
+
+.botao-comprar {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'redhatmedium', sans-serif;
+    
+    text-decoration: none;
+    padding: 86px;
+    cursor: grab;
+    color: white;
+    bottom: -180px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(56, 42, 225);
+    box-shadow: rgba(56, 42, 225) 0px 5px 15px;
+}
+
+.botão-comprar:hover {
+    transition: 0.3s;
+    background-color: rgb(118, 108, 241);;
+}
+
+.link-cancelar {
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: 'redhatbold', sans-serif;
+
+    cursor: grab;
+    bottom: -220px;
+    position: relative;
+    text-decoration: none;
+    color: rgb(139, 144, 164);
+}
+
+.link-cancelar:hover {
+    transition: 0.3s;
+    color: hsl(223, 47%, 23%);
+}

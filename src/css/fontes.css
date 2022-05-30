@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'redhatdisplay-italic' ;
+    src: url('../fontes/RedHatDisplay/RedHatDisplay-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'redhatdisplay-variable';
+    src: url('../fontes/RedHatDisplay/RedHatDisplay-VariableFont_wght.ttf');
+} 
+
+@font-face {
+    font-family: 'redhatbold';
+    src: url('../fontes/RedHatDisplay/red-hat.display-bold.otf');
+}
+
+@font-face {
+    font-family: 'redhatmedium';
+    src: url('../fontes/RedHatDisplay/red-hat.display-medium.otf');
+}
+
+@font-face {
+    font-family: 'redhattextbold';
+    src: url('../fontes/RedHatDisplay/red-hat.text-bold.otf');
+}
